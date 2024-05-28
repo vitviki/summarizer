@@ -1,3 +1,18 @@
-export default function App() {
-  return <h1 className="text-3xl font-bold underline">Hello world!</h1>;
-}
+import Hero from "./components/Hero";
+import Demo from "./components/Demo";
+
+const App = () => {
+  return (
+    <main>
+      <div className="main">
+        <div className="gradient"></div>
+      </div>
+      <div className="app">
+        <Hero />
+        <Demo />
+      </div>
+    </main>
+  );
+};
+
+export default App;
